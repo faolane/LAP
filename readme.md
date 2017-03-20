@@ -34,13 +34,13 @@ with
 * *n* the dimension of the cost matrix *C*
 
 * *gen* an integer associated with the generation of *C*
-..* *gen* = 0: read *C* in file
-..* *gen* = 1: randomly generate C as a (*n* x *n*) matrix with integer element in [0,9]
-..* *gen* = -1: generate C as a 'worst case matrix' *i.e.* *C(i,j) = i * j*
+   * *gen* = 0: read *C* in file
+   * *gen* = 1: randomly generate C as a (*n* x *n*) matrix with integer element in [0,9]
+   * *gen* = -1: generate C as a 'worst case matrix' *i.e.* *C(i,j) = i * j*
 
 * *method* an integer associated with the algorithm used to find the solution
-..* *method* = 1: brute force method (Heap algo)
-..* *method* = 2: Munkres algorithm
+   * *method* = 1: brute force method (Heap algo)
+   * *method* = 2: Munkres algorithm
 
 * *mode* = 0: minimize overall cost, *mode* = 1: maximize overall cost
 
@@ -50,4 +50,4 @@ Let us note that the LAP problem and the program can be easily generalize to cas
 
 ## Copyright
 
-Copyright (C) 2017 Fabien Brieuc - This is a totally free program
+Copyright (C) 2017 Fabien Brieuc
