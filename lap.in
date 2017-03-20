@@ -1,0 +1,28 @@
+13 -1 1 0
+3 6 4
+3 2 7
+1 5 8
+--------------------
+n gen method mode
+C(1,1) ... C(1,n)
+   .          .
+   .          .
+C(n,1)  ... C(n,n)
+--------------------
+n : dimension of C
+
+gen :
+gen = 0  -> read C in file
+gen = 1  -> randomly generate C 
+gen = -1 -> generate 'worst case' cost matrix C(i,j) = i * j 
+
+method : 
+method = 1 -> brute force method 
+method = 2 -> Munkres algorithm
+ 
+mode :
+mode = 0 -> search for the minimum possible sum
+mode = 1 -> search for the maximum possible sum
+
+C : cost matrix 
+n x n matrix with integer elements in [0,9]
