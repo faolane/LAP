@@ -4,7 +4,7 @@
 
 The [Linear Assignment Problem](https://en.wikipedia.org/wiki/Assignment_problem) (LAP) is a fundamental combinatorial optimization problem with broad applications. It can be described in the following way: there is *n* available workers  and *n* jobs to perform. Each worker can perform only one job and there is a cost associated for each worker to do a particular job. An example of this problem is illustrated below:
 
-<img src="lap.png" width="300">
+<img src="lap.png" width="500">
 
 The aim is to find the optimal assignment *i.e.* the assignment that minimize the overall cost. A possible assignment (which is not the optimal one) is illustrated here. The optimal assignment for this particular example is to assign worker *a* to job *s*, worker *b* to job *r* and worker *c* to job *q* for an overall cost of 7. The problem is completely defined by the cost matrix that contains all the cost associated with each worker doing each job.
 
@@ -18,6 +18,7 @@ This code is a fortran 90 solver for the LAP that implements two different metho
 ## Usage
 
 This program can be compiled using standard fortran compiler by running for example
+
 `gfortran -O3 lap.f90 -o lap.exe`
 
 The program needs an input file called **lap.in** that contains all the important
@@ -35,8 +36,8 @@ with
 
 * *gen* an integer associated with the generation of *C*
    * *gen* = 0: read *C* in file
-   * *gen* = 1: randomly generate C as a (*n* x *n*) matrix with integer element in [0,9]
-   * *gen* = -1: generate C as a 'worst case matrix' *i.e.* *C(i,j) = i * j*
+   * *gen* = 1: randomly generate *C* as a (*n* x *n*) matrix with integer element in [0,9]
+   * *gen* = -1: generate *C* as a 'worst case matrix' *i.e.* *C(i,j) = i * j*
 
 * *method* an integer associated with the algorithm used to find the solution
    * *method* = 1: brute force method (Heap algo)
