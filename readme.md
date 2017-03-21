@@ -47,7 +47,7 @@ with
 
 * And *C(i,j)* are the elements of the cost matrix *C*
 
-Let us note that the LAP problem and the program can be easily generalize to cases where there is *n* workers and *m* jobs *i.e.* to rectangular cost matrices. However we restrain ourselves to the case of square cost matrices here.
+Let us note that the LAP problem and the program can be easily generalized to cases where there are *n* workers and *m* jobs *i.e.* to rectangular cost matrices. However we restrain ourselves to the case of square cost matrices here.
 
 ## Copyright
 
