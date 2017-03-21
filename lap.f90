@@ -224,8 +224,8 @@ subroutine heap(jSol)
 
    integer, dimension(n), intent(out) :: jSol ! solution indices
 
-   integer, dimension(:), allocatable   :: p  ! for permutations
-   integer, dimension(:), allocatable   :: j  ! choosen indice of row i
+   integer, dimension(:), allocatable :: p  ! for permutations
+   integer, dimension(:), allocatable :: j  ! choosen indice of row i
    integer :: sum, sum_tmp
    integer :: i, tmp
 
