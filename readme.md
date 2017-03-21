@@ -12,8 +12,7 @@ This code is a fortran 90 solver for the LAP that implements two different metho
 
 * The first one is a brute force method that simply computes all the possibilities (*i.e* all the permutations) using Heap's algorithm. This method is efficient for small matrices but of course scales very badly when the dimension *n* of the cost matrix increases. Actually the time complexity is basically *O(n!)* since the number of permutations to compute is *n!*. This method cannot really be used for *n* larger than 12.
 
-* The second method uses the Munkres' algorithm (also called the [Hungarian algorithm](https://en.wikipedia.org/wiki/Hungarian_algorithm)) to solved the problem. The Munkres' algorithm [You can use numbers for reference-style link definitions]
- (*Algorithms for Assignment and Transportation Problems*, J. Munkres, *Journal of the Society for Industrial and Applied Mathematics*, **5**, 1, (1957)) gives the optimal solution with a polynomial time complexity. The particular implementation used here is described in details [here](http://csclab.murraystate.edu/%7Ebob.pilgrim/445/munkres.html) and has a time complexity of *O(n<sup>3</sup>)*.
+* The second method uses the Munkres' algorithm (also called the [Hungarian algorithm](https://en.wikipedia.org/wiki/Hungarian_algorithm)) to solved the problem. The Munkres' algorithm (*Algorithms for Assignment and Transportation Problems*, J. Munkres, *Journal of the Society for Industrial and Applied Mathematics*, **5**, 1, (1957)) gives the optimal solution with a polynomial time complexity. The particular implementation used here is described in details [here](http://csclab.murraystate.edu/%7Ebob.pilgrim/445/munkres.html) and has a time complexity of *O(n<sup>3</sup>)*.
 
 ## Usage
 
