@@ -1,4 +1,4 @@
-# A Fortran linear assignment problem solver
+# A Fortran solver for the Linear Assignment Problem (LAP)
 
 ## Description
 
