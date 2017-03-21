@@ -17,7 +17,7 @@ This code is a fortran 90 solver for the LAP that implements two different metho
 
 ## Usage
 
-This program can be compiled using standard fortran compiler by running for example
+This program can be compiled using standard fortran compiler by running for example:
 
 `gfortran -O3 lap.f90 -o lap.exe`
 
