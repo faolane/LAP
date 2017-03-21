@@ -46,7 +46,7 @@ with
 
 * And *C(i,j)* the elements of the cost matrix *C*. Used if *gen* = 0.
 
-Let us note that the LAP problem and the program can be easily generalized to cases where there are *n* workers and *m* jobs *i.e.* to rectangular cost matrices. Indeed, one can always add jobs or workers *i.e.* columns or rows to with cost of 0 in order to construct a square matrix. However, we restrain ourselves to the case of square cost matrices here.
+Let us note that the LAP problem and the program can be easily generalized to cases where there are *n* workers and *m* jobs *i.e.* to rectangular cost matrices. Indeed, one can always add jobs or workers *i.e.* columns or rows with cost of 0 in order to construct a square matrix. However, the program here only accept square cost matrices here.
 
 ## Copyright
 
