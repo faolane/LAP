@@ -50,4 +50,4 @@ Let us note that the LAP problem and the program can be easily generalized to ca
 
 ## Copyright
 
-Copyright (C) Fabien Brieuc
+Copyright (C) -- Fabien Brieuc
